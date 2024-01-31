@@ -38,3 +38,7 @@
     console.log(x);
 }
 console.log(x);
+
+// hosting 
+console.log(z);
+var z = 80;
