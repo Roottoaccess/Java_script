@@ -28,8 +28,12 @@ let c = 84;
 
 if(a > b && a > c){
     console.log(a,"is greater");
-} else if(b > a && b > c){
+}
+else if(b > a && b > c)
+{
     console.log(b,"is greater");
-} else {
+}
+else 
+{
     console.log(c,"is greater");
 }
