@@ -1,7 +1,8 @@
 // if , else if and else statement important concept
 console.log("hello");
 var x = 10;
-if(x > 2 && x < 50){
+if(x > 2 && x < 50)
+{
     console.log("hi");
     console.log("ok");
 }
