@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM concept in html</title>
+    
+</head>
+<body>
+    <h1>SBS Online classes</h1>
+    <a href="bom1.html">click here</a>
+    <br><br>
+    <button id="intro" onclick="into()">Welcome</button>
+    <br><br>
+    <button id="btn" onclick="demo()">open new tab</button>
+    <br><br>
+    <button id="btn1" onclick="demo1()">close the tab</button>
+    <br><br>
+    <button id = "del" onclick="del()">delete</button>
+    <script>
+        var el = prompt("Enter color name: ");
+        document.getElementsByTagName("body")[0].style.backgroundColor = el;
+    </script>
+    <script src="bom.js"></script>
+</body>
+</html>
