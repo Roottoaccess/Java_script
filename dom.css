@@ -1,0 +1,39 @@
+#box{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px royalblue;
+    border-radius: 2px;
+}
+.inp{
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px royalblue;
+    height: 20px;
+    /* position: relative;
+    left: 200px; */
+}
+.gg{
+    font-family: cursive;
+    color: red;
+    text-shadow: 5px 5px 20px black;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: overline yellow;
+}
+#btn{
+    padding: 8px;
+    background-color: hotpink;
+    border: 2px solid black;
+    font-family: cursive;
+    /* text-shadow: 2px 2px 5px blue; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px royalblue;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
